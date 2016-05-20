@@ -1,0 +1,12 @@
+{
+    "project_name": "Human Readable Name",
+    "java_group_name": "package_collection_name",
+    "github_account": "user_org_name",
+    "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-')  }}",
+    "java_name": "{{ cookiecutter.project_name|lower|replace(' ', '_')  }}",
+    "class_name": "{{ cookiecutter.project_name|title|replace(' ', '') }}",
+    "_copy_without_render": [
+        "*.jar",
+        "gradlew"
+    ]
+}
